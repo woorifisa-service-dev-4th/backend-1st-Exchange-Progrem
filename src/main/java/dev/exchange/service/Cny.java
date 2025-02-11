@@ -5,7 +5,7 @@ public class Cny {
 	public double CalCny(String currency, double money) {
         double result = 0;
 
-        switch (currency.toUpperCase()) {
+        switch (currency) {
             case "KRW": // 원화 → 위안화
                 result = money * 0.0051;  // 1 KRW = 0.0051 CNY
                 break;

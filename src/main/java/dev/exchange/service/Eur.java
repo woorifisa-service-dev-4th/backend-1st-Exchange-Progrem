@@ -7,7 +7,7 @@ public class Eur {
 	public double CalEur(String currency, double money) {
 	    double result = 0;
 
-	    switch (currency.toUpperCase()) {
+	    switch (currency) {
 	        case "KRW": // 원화 → 유로
 	            result = money * 0.00072;  // 1 KRW = 0.00072 EUR
 	            break;

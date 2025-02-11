@@ -8,7 +8,7 @@ public class Krw {
 	public double calKrw(String currency, double money) {
         double result = 0;
 
-        switch (currency.toUpperCase()) {
+        switch (currency) {
             case "USD":
                 result = money * 1453.00; // USD -> KRW
                 break;

@@ -6,7 +6,7 @@ public class Jpy {
 	public double CalJpy(String currency, double money) {
         double result = 0;
 
-        switch (currency.toUpperCase()) {
+        switch (currency) {
             case "KRW": // 원화 → 엔화
                 result = money * 0.0096;  // 1 KRW = 0.0096 JPY
                 break;

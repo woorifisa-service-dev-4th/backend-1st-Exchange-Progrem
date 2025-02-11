@@ -16,9 +16,9 @@ public class Main {
 		Currencys currencys =new Currencys();
 		
 		Scanner in = new Scanner(System.in); 
-		System.out.println("통화 입력");
-		String currency= in.nextLine();
-		System.out.println("금액 입력");
+		System.out.print("통화 입력 : ");
+		String currency= in.nextLine().toUpperCase();
+		System.out.print("금액 입력 : ");
 		double Money=in.nextDouble();
 	
 		
