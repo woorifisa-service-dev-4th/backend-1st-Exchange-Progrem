@@ -15,3 +15,8 @@ KRW, USD, EUR, JPY, CNY 중 하나를 입력받아 입력받은 통화 외의 �
 ## 실행 화면
 
 <img width="119" alt="스크린샷 2025-02-11 오전 11 54 11" src="https://github.com/user-attachments/assets/ecb6cc29-a4d6-4c5d-a410-f5960f8818cb" />
+
+
+## 요구사항
+
+<img width="493" alt="스크린샷 2025-02-11 오전 11 57 58" src="https://github.com/user-attachments/assets/f4e761b8-bbc8-49cb-ab5c-ee697709f848" />
